@@ -12,9 +12,7 @@ export function Router () {
                 <Route path='/history' element={<History />} />
             </Route>
            
-            <Route path='/admin' element={<AdminLayout />}>
-                <Route path='/products' element={<Home />} />               
-            </Route>
+           
         </Routes>
     );
 }
